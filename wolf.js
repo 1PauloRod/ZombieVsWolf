@@ -5,8 +5,7 @@ class Wolf{
         this.position = {x: canvas.width - 250, y: canvas.height - 328};
         this.velocity = {x: 10, y: 0};
         this.size = {width: 228, height: 228};
-        this.imgWolfRun = new Image();
-        this.imgWolfRun.src = "/img/Run_Attack.png";
+        this.imgWolfRun = document.getElementById("RunAttackImg");
         this.frame = 0;
         this.numberOfFrames = 7;
     }

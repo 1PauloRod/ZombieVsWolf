@@ -5,8 +5,7 @@ class Background{
     constructor(){
         this.x = 0;
         this.velocity = 10;
-        this.image = new Image();
-        this.image.src = '/img/background.png';
+        this.image = document.getElementById("backgroundImg");
     }
 
 

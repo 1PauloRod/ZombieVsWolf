@@ -5,12 +5,9 @@ class Player{
         this.position = {x: 100, y: canvas.height - 150};
         this.velocity = {x: 0, y: 0};
         this.size = {width: 228, height: 196};
-        this.imgZombieRun = new Image();
-        this.imgZombieRun.src = 'img/Run.png';
-        this.imgZombieJump = new Image();
-        this.imgZombieJump.src = 'img/Jump.png';
-        this.imgZombieDead = new Image();
-        this.imgZombieDead.src = 'img/Dead.png';
+        this.imgZombieRun = document.getElementById("playerRun");
+        this.imgZombieJump = document.getElementById("playerJump");
+        this.imgZombieDead = document.getElementById("playerDead");
         this.numberOfFrames = 6;
         this.numberOfFramesJump = 8;
         this.numberOfFramesDead = 5;
